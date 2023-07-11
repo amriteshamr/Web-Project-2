@@ -1,0 +1,156 @@
+body{
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    height: 520px;
+    width: 600px;
+    border: 5px solid white;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 100px rgba(0, 77, 255, 0.864);
+}
+
+h1{
+    color: aliceblue;
+    margin-top: 5%;
+    text-shadow: -3px 3px 0 black;
+    margin-bottom: 2%;
+}
+.avatar{
+    height:150px;
+    width: 150px;
+    border: 4px solid silver;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.college-details{
+    margin-top: 5px;
+    padding: 5px;
+    height: 8%;
+    width: auto;
+    margin-left:10px;
+    margin-right: 10px;
+    border: 5px solid white;
+    background-color: silver;
+    border-radius: 12px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.hobby-details{
+    display: flex;
+    height: 12%;
+    width: 30%;
+    margin-top: 5px;
+    border: 5px solid white;
+    border-radius: 12px;
+    background-color: silver;
+    margin-left:10px;
+    margin-right:10px;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+
+
+.hobby-images{
+    width: 18%;
+    margin-top: 5px;
+    border: 5px solid white;
+    border-radius: 12px;
+    margin-left:10px;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: transform 0.3s;
+}
+
+#read{
+    background: url("images/reading.jpg");
+    background-size: cover;
+}
+
+#trekk{
+    background: url("images/trekking.jpg");
+    background-size: cover;
+}
+
+#play{
+    background: url("images/football.jpg");
+    background-size: cover;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.last-row{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projects{
+    width: 29%;
+    margin-top: 5px;
+    border: 5px solid white;
+    border-radius: 12px;
+    margin-left:10px;
+    justify-content: center;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.icon{
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img{
+    transition: transform 0.4s;
+}
+img:hover{
+    transform: scale(1.2);
+}
+
+
+.college-details:hover {
+    border: 5px solid black;
+    background-color: white;
+    transform: scale(.9);
+    box-shadow: 0 0 40px rgba(0, 77, 255, 0.864);
+}
+
+#play:hover {
+    transform: scale(2);
+    box-shadow: 0 0 100px rgba(0, 77, 255, 0.864);
+    border: 3px solid white;
+}
+#trekk:hover {
+    transform: scale(2);
+    box-shadow: 0 0 100px rgba(0, 77, 255, 0.864);
+    border: 3px solid white;
+}
+#read:hover {
+    transform: scale(2);
+    box-shadow: 0 0 100px rgba(0, 77, 255, 0.864);
+    border: 3px solid white;
+} 
+.hobby-details:hover {
+    border: 5px solid black;
+    background-color: white;
+    transform: scale(.9);
+    box-shadow: 0 0 40px rgba(0, 77, 255, 0.864);
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(225, 0, 255, 0.864);
+}
